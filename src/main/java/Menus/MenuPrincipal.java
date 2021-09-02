@@ -10,5 +10,6 @@ public class MenuPrincipal {
         System.out.println("6.- Crear directorio");
         System.out.println("7.- Cambiar el directorio actual");
         System.out.println("8.- Establecer conexion remotamente");
+        System.out.println("0.- Salir del programa");
     }
 }
