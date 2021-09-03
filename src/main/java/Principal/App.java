@@ -52,16 +52,16 @@ public class App {
 					Menus.FuncionesMenuPrincipal.salirDelPrograma();
 					break;
 				case 1:
-					Menus.FuncionesMenuPrincipal.listarFicherosYDirectorios(ftpClient, directorioRaiz);
+					Menus.FuncionesMenuPrincipal.listarArchivosYDirectorios(ftpClient, directorioRaiz);
 					break;
 				case 2:
-					Menus.FuncionesMenuPrincipal.subirFichero(ftpClient, directorioRaiz);
+					Menus.FuncionesMenuPrincipal.subirArchivo(ftpClient, directorioRaiz);
 					break;
 				case 3:
-					Menus.FuncionesMenuPrincipal.descargarFichero(ftpClient, directorioRaiz);
+					Menus.FuncionesMenuPrincipal.descargarArchivo(ftpClient, directorioRaiz);
 					break;
 				case 4:
-					Menus.FuncionesMenuPrincipal.eliminarFichero(ftpClient, directorioRaiz);
+					Menus.FuncionesMenuPrincipal.eliminarArchivo(ftpClient, directorioRaiz);
 					break;
 				case 5:
 					Menus.FuncionesMenuPrincipal.eliminarDirectorio(ftpClient, directorioRaiz);
@@ -71,9 +71,6 @@ public class App {
 					break;
 				case 7:
 					Menus.FuncionesMenuPrincipal.cambiarElDirectorioActual(ftpClient, directorioRaiz);
-					break;
-				case 8:
-					Menus.FuncionesMenuPrincipal.establecerConexionRemotamente(ftpClient, directorioRaiz);
 					break;
 				default:
 					System.err.println("Opcion incorrecta");
